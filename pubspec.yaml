@@ -1,6 +1,6 @@
-name: sixam_mart_delivery
+﻿name: sixam_mart_delivery
 description: A new Flutter application.
-publish_to: 'none' #
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -9,7 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.8
   get: ^4.7.3
   shared_preferences: ^2.5.4
@@ -51,12 +50,9 @@ dependencies:
   fluttertoast: ^9.0.0
   emoji_picker_flutter: ^4.4.0
   file_picker: ^10.3.10
-
-  # rider
   expandable_bottom_sheet: ^1.1.1+1
   google_map_custom_windows: ^1.1.0
   dart_pusher_channels: ^1.2.3
-  #web_socket_channel: ^3.0.3
   fl_chart: ^0.69.2
   square_progress_indicator: ^0.0.8
   percent_indicator: ^4.2.5
@@ -69,18 +65,20 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^6.0.0
   flutter_launcher_icons: ^0.14.3
-  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: 'assets/image/logo.png'
 
 flutter:
   uses-material-design: true
-
   assets:
     - assets/image/
     - assets/image/rider/
     - assets/language/
     - assets/map/
     - assets/notification.mp3
-
   fonts:
     - family: Roboto
       fonts:
@@ -92,13 +90,3 @@ flutter:
           weight: 700
         - asset: assets/font/Roboto-Black.ttf
           weight: 900
-
-flutter_launcher_icons:
-  android: true
-  ios: false
-  image_path: 'assets/image/logo.png'
-
-flutter_launcher_icons:
-  android: true
-  ios: false
-  image_path: 'assets/image/logo.png'
